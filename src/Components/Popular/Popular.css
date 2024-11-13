@@ -1,0 +1,49 @@
+.popular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 75px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #ffffff;  /* Change the background to pure white */
+}
+
+.popular h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.popular hr {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.popular-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .popular-item {
+    flex-direction: column;
+    align-items: center;
+  }
+}
